@@ -584,7 +584,8 @@ INT RtmpAsicSendCommandToMcu(
 
 			pci_write_config_word(((POS_COOKIE)pAd->OS_Cookie)->pci_dev, offset, Configuration);
 
-			DBGPRINT(RT_DEBUG_TRACE, ("RadioOnExec restore 70f; offset = %x, Configuration = %x. \n", offset, Configuration));
+			/* DBGPRINT(RT_DEBUG_TRACE, ("RadioOnExec restore 70f; offset = %x, Configuration = %x. \n", offset, Configuration));
+			*/
 		}
 	}
 
